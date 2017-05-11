@@ -1,5 +1,5 @@
 from distutils.core import setup
-#
+
 #try:
 #    import pypandoc
 #    long_description = pypandoc.convert('README.md', 'rst')
@@ -7,10 +7,10 @@ from distutils.core import setup
 #except:
 #    print('Long desc failure')
 #    long_description = open('README.md').read()
-#
+
 setup(
     name = 'winClip', # name of package
-    version = '0.2',
+    version = '0.3',
     description = 'Python package interact with clipboard',
     long_description='Refer to: https://github.com/aakash4525/winClip',
     license='MIT',
